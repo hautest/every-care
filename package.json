@@ -6,20 +6,25 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prepare": "panda prepare"
   },
   "dependencies": {
+    "@ark-ui/react": "^4.1.2",
+    "next": "15.0.0-rc.1",
     "react": "19.0.0-rc-cd22717c-20241013",
-    "react-dom": "19.0.0-rc-cd22717c-20241013",
-    "next": "15.0.0-rc.1"
+    "react-dom": "19.0.0-rc-cd22717c-20241013"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@pandacss/dev": "^0.47.0",
+    "@park-ui/panda-preset": "^0.42.0",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "babel-plugin-react-compiler": "19.0.0-beta-9ee70a1-20241017",
     "eslint": "^8",
-    "eslint-config-next": "15.0.0-rc.1"
+    "eslint-config-next": "15.0.0-rc.1",
+    "typescript": "^5"
   },
   "packageManager": "pnpm@9.6.0+sha512.38dc6fba8dba35b39340b9700112c2fe1e12f10b17134715a4aa98ccf7bb035e76fd981cf0bb384dfa98f8d6af5481c2bef2f4266a24bfa20c34eb7147ce0b5e"
 }
